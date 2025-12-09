@@ -3,13 +3,11 @@
 using namespace std;
 
 double deg2rad(double deg){
-    double rad = deg*M_PI/180;
-    return rad;
+    return deg*M_PI/180;
 }
 
 double rad2deg(double rad){
-    double deg = rad*180/M_PI;
-    return deg;
+    return rad*180/M_PI;
 }
 
 double findXComponent(double l1, double l2, double a1, double a2){
